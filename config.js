@@ -1,7 +1,7 @@
 
 module.exports = {
-  pathPrefix: '/gatsby-starter-developer-blog',
-  siteUrl: 'https://lgcolella.github.io',
+  pathPrefix: '/GatsbyPortfolio',
+  siteUrl: 'https://cmrnprry.github.io',
   siteTitle: 'Cam Perry',
   siteDescription: 'Narrative Designer and Writer',
   author: 'lcolella',
@@ -41,23 +41,6 @@ module.exports = {
     narrative_design: {
       name: 'Narrative Design',
       description: 'Node.js is a tool for executing JavaScript in a variety of environments.'
-    },
-    rxjs: {
-      name: 'RxJS',
-      description: 'RxJS is a library for reactive programming using Observables, to make it easier to compose asynchronous or callback-based code.'
-    },
-    sass: {
-      description: 'Sass is a stable extension to classic CSS.'
-    },
-    typescript: {
-      description: 'TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.'
-    },
-    react: {
-      description: 'React is an open source JavaScript library used for designing user interfaces.'
-    },
-    vuejs: {
-      name: 'Vue.js',
-      description: 'Vue.js is a JavaScript framework for building interactive web applications.'
     }
   }
 }
