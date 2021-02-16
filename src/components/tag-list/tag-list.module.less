@@ -1,0 +1,13 @@
+@import (reference) '../../style/index.less';
+
+.tags {
+  .flex-center();
+  justify-content: center;
+  a {
+    .label();
+    &:hover {
+      cursor: pointer;
+      .label-hover();
+    }
+  }
+}
