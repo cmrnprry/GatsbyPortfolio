@@ -12,6 +12,9 @@ function SEO({
   description,
   path,
   trailerURL,
+  download,
+  writing,
+  design,
   lang,
   keywords,
   contentType,
@@ -44,7 +47,11 @@ function SEO({
             meta={
               [
                 { name: 'description', content: description }, // Page description
-                { name: 'trailerURL', content: trailerURL},
+                { name: 'trailerURL', content: trailerURL },
+                { name: 'download', content: download },
+                { name: 'writing', content: writing},
+                { name: 'design', content: design},
+                
                 /* Open Graph */
                 { property: 'og:title', content: title },
                 { property: 'og:type', content: contentType || 'website' },
@@ -95,6 +102,9 @@ SEO.propTypes = {
   description: PropTypes.string.isRequired,
   path: PropTypes.string.isRequired,
   trailerURL: PropTypes.string.isRequired,
+  download: PropTypes.string.isRequired,
+  writing: PropTypes.string.isRequired,
+  design: PropTypes.string.isRequired,
   lang: PropTypes.string,
   contentType: PropTypes.oneOf(['article', 'website']),
   imageUrl: PropTypes.string,

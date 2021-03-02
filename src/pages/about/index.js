@@ -47,8 +47,8 @@ class About extends React.Component {
               <br />
               <br />
               I'm most interested in creating games that are either horror, weird or absurd! That's not to say I don't 
-              love to create games that have deep, and meaningful narratives as well, those are just my favourite! Some of my 
-              favourite games are those that allow the player to interpret the narrative, and stay more open-ended, so those 
+              love to create games that have deep, and meaningful narratives as well, those are just my favorite! Some of my 
+              favorite games are those that allow the player to interpret the narrative, and stay more open-ended, so those 
               are the kinds of games I want to create in the future!
               <br />
               <br />

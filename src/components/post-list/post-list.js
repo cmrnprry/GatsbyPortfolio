@@ -46,6 +46,9 @@ PostList.propTypes = {
           date: PropTypes.string,
           path: PropTypes.string.isRequired,
           trailerURL: PropTypes.string,
+          download: PropTypes.string,
+          writing: PropTypes.string,
+          design: PropTypes.string,
           tags: PropTypes.arrayOf(PropTypes.string).isRequired,
           cover: PropTypes.shape({
             childImageSharp: PropTypes.shape({

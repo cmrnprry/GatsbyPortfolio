@@ -9,6 +9,12 @@ import SEO from '../../components/seo'
 import Utils from '../../utils'
 import style from '../../components/post-list/post-list.module.less'
 
+/* Samples */
+import OFC from './PDFs/OFC Narrative outline.pdf'
+import Bound from './PDFs/Bound (Working Title) Design Doc.pdf'
+import Mall from './PDFs/THEMALL Designs.pdf'
+
+
 class Design extends React.Component {
 
   render() {
@@ -26,7 +32,7 @@ class Design extends React.Component {
               backgroundColor: 'rgb(100 72 92 / 49%)',
               textAlign: 'center'
           }}>
-            <a href="https://docs.google.com/document/d/19WI4lIlG6gPFjmoyUDVndvg6T2DUXwlL-gLspYW-XFo/edit?usp=sharing"
+            <a href={OFC}
               target="_blank"
               rel="nofollow noopener noreferrer"
             >
@@ -34,23 +40,39 @@ class Design extends React.Component {
                 <p>The <i>Out of CTRL</i> narrative design outline</p>
             </a>
           </div>   
-
+         
           <div className={style.post}
             style={{
               justifyContent: 'center', 
               backgroundColor: 'rgb(100 72 92 / 49%)',
               textAlign: 'center'
           }}>
-            <a href="https://docs.google.com/document/d/1pOZr4ZuUSIb8pz7YwE0I4J0YOJahHWcj1HOeeVtflwM/edit?usp=sharing"
+            <a href={Mall}
+              target="_blank"
+              rel="nofollow noopener noreferrer"
+            >
+                <h2>THEMALL</h2>
+                <p><i>THEMALL</i> store designs and moodboards</p>
+            </a>
+          </div>  
+         
+          <div className={style.post}
+            style={{
+              justifyContent: 'center', 
+              backgroundColor: 'rgb(100 72 92 / 49%)',
+              textAlign: 'center'
+          }}>
+            <a href={Bound}
               target="_blank"
               rel="nofollow noopener noreferrer"
             >
                 <h2>Bound</h2>
-                <p>A detailed Design Document for a yet-to-be-made horror game</p>
+                <p>A detailed design document for a yet-to-be-made horror game</p>
             </a>
           </div>
 
-          <div className={style.post}
+ 
+          {/* <div className={style.post}
             style={{
               justifyContent: 'center', 
               backgroundColor: 'rgb(100 72 92 / 49%)',
@@ -63,7 +85,7 @@ class Design extends React.Component {
                 <h2>Roots of Another Kind</h2>
                 <p>A 2 page Design Document for a short Twine game</p>
             </a>
-          </div>
+          </div> */}
 
        
         </div>

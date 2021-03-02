@@ -22,7 +22,7 @@ class Resume extends React.Component {
             <h2>
               If you can't view the pdf, <a href={resume} target="_blank"
                 rel="nofollow noopener noreferrer"
-                style={{ color: '#FFFFFF', textDecoration: 'underline' }}> here's a link!</a>
+                style={{ color: '#FFFFFF', textDecoration: 'underline' }}> here's a downloadable link!</a>
             </h2>
             <div>
               <embed src={resume} width="100%" height="1000vh"/>

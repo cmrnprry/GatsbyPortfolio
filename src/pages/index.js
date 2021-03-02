@@ -36,6 +36,9 @@ export const query = graphql`
           frontmatter {
             path
             trailerURL
+            download
+            writing
+            design
             title
             tags
             excerpt

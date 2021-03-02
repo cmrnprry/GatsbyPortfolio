@@ -4,25 +4,28 @@ date: 2020-06-12
 tags: [writing, environment_design]
 path: blog/themall
 trailerURL: https://www.youtube.com/embed/IPUPAme0h3o
+download: https://jelindo.itch.io/weird-mall
+writing: ""
+design: THEMALL Designs.pdf
 cover: ./sass-image.png
-excerpt: A werid game about be lost in a liminal mall
+excerpt: A weird game about being lost in a liminal mall
 ---
 ### About the Game
 
-THEMALL is a short expereince about being lost in a mall.
+THEMALL is a short experience about being lost in a liminal mall. There are seven different stores to explore, along with a few secret rooms. The stores themselves aren't always accessible, as they have their own schedules.
 
-This was made for Global Game Jam 2021! A bit ago there were pictures floating around of a "weird mall", so the team decied to recreate it. THEMALL is less of a game, and just an experience of stores and sounds. Each store has it's own music track, and occationally fully voiced announments are made!
+THEMALL is less of a "traditional" game, and more of a experience of stores and sounds. Each store has it's own music track, and occasionally fully voiced announcements are made!
 
 ### Contributions
 
 - Lead a team of designers and artists
-- Implemented most of the art and rooms
-- Wrote all voice lines
 - Created moodboards to help team to understand the vibes
+- Implemented most of the art and stores
+- Wrote all voice lines
 
 ### What I Learned
 
-This game is one of my favourites that I have ever made. The motto that the team and I had while creating it was "No form. Only Vibes.", which basically meant that we had little plans going into the design outside of what we wanted the player to feel. We spent a day brainstorming what different stores could be by creating moodboards and finding weird or surreal images online, before settling on a few and getting to work. We used a combination of 2D and 3D art assets that we either made or found for free online.
+This game is one of my favorites that I have ever made. The motto that the team and I had while creating it was "No form. Only Vibes.", which basically meant that we had a very basic design, and focused on what we wanted the player to feel. We spent a day brainstorming what different stores could be by creating moodboards, and finding weird or surreal images online, before settling on a few and getting to work. We used a combination of 2D and 3D art assets that we either made or found for free online.
 
 ### Screenshots
 
