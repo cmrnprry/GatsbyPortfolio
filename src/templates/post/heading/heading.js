@@ -15,14 +15,14 @@ const Heading = ({ title, cover, coverTitle, trailer, download, writing, design 
       
       <div className={style.links}>
         <Link to={download}>Download Game</Link>
-        {writing != "" &&
+        {/* {writing != "" &&
         <a href={'./PDFs/' + {writing}}
           target="_blank"
           rel="nofollow noopener noreferrer"> Writing Sample </a>}
         {design != "" &&
         <a href={'./PDFs/' + {design}}
           target="_blank"
-          rel="nofollow noopener noreferrer"> Design Sample </a>}
+          rel="nofollow noopener noreferrer"> Design Sample </a>} */}
       </div>
     </div>
 
