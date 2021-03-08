@@ -40,7 +40,7 @@ class About extends React.Component {
           <div className={style.content}>
             <h1>Hi, I'm Cam!</h1>
             <h2>I'm a <br/>✨Narrative Designer and Writer✨</h2>
-            <p>
+            <p style={{fontSize: '22px'}}>
               I'm currently studying Computer Science and Game Development at Northeastern University, 
               but will be graduating this April! As much as I love coding, over my four years at Northeastern, 
               I've realized my true passion lies in writing and design! 

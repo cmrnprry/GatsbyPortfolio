@@ -26,21 +26,7 @@ class Design extends React.Component {
           path="design-samples"
         />
         <div className={style.container}>
-          <div className={style.post}
-            style={{
-              justifyContent: 'center', 
-              backgroundColor: 'rgb(100 72 92 / 49%)',
-              textAlign: 'center'
-          }}>
-            <a href={OFC}
-              target="_blank"
-              rel="nofollow noopener noreferrer"
-            >
-                <h2>Out of CTRL</h2>
-                <p>The <i>Out of CTRL</i> narrative design outline</p>
-            </a>
-          </div>   
-         
+                  
           <div className={style.post}
             style={{
               justifyContent: 'center', 
@@ -71,7 +57,20 @@ class Design extends React.Component {
             </a>
           </div>
 
- 
+          <div className={style.post}
+            style={{
+              justifyContent: 'center', 
+              backgroundColor: 'rgb(100 72 92 / 49%)',
+              textAlign: 'center'
+          }}>
+            <a href={OFC}
+              target="_blank"
+              rel="nofollow noopener noreferrer"
+            >
+                <h2>Out of CTRL</h2>
+                <p>The <i>Out of CTRL</i> narrative design outline</p>
+            </a>
+          </div>   
           {/* <div className={style.post}
             style={{
               justifyContent: 'center', 

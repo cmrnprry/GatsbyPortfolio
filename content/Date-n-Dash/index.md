@@ -15,13 +15,13 @@ excerpt: A dating sim, but every time you die it gets faster
 
 Date N' Dash is a visual novel about a firefighter named Lyla, who somehow gets stuck in a time loop. Every new loop is slightly different, except for one thing: a cute girl named Gigi.
 
-Date N' Dash was made to answer the question: "What if a dating sim, but every time you died it got _faster?"_ This led the team to creating a fun, Groundhog Day-esc dating sim. The team managed to finish the game before the end of the jam with a script that was 69 pages long, eleven different music tracks and even some voice acting!
+Date N' Dash was made to answer the question: "What if a dating sim, but every time you died it got _faster?"_ This led the team to creating a fun, Groundhog Day-esc dating sim. The team finished the game with a script that was 69 pages long, eleven different music tracks and even some voice acting!
 
 ### Contributions
 
-- Wrote and deigned for a branching narrative
+- Wrote and designed for a branching narrative
 - Collaborated with another writer to come up with a cohesive design
-- Wrote the narrative for days two, three and the intro of five
+- Wrote the narrative for days two, three and the intro of day five
 - Wrote the narrative for two of four possible endings
 - Translated the script to work with the Ink Plugin for Unity
 
