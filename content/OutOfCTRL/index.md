@@ -15,7 +15,7 @@ excerpt: A short interactive narrative about a conversation with old computer
 
 Have a conversation with an old computer that seems to know more about you than it should. While the computer can type whatever it wants, the only way you can respond is by copy and pasting pieces of the text from previous parts of the conversation.
 
-Out of CTRL was made for the 2020 Game Maker's Toolkit (GMTK) Jam. It was rated **#19 in originality** and **#251 overall** out of _**5,357 total entries.**_ Since release, it has amassed over **6,000 browser plays** and **10k views,** as well as being played on Twitch by streamers. This is currently a demo, and the team is currently working a version that is more responsive to the player!
+Out of CTRL was made for the 2020 Game Maker's Toolkit (GMTK) Jam. It was rated **#19 in originality** and **#251 overall** out of _**5,357 total entries.**_ Since release, it has amassed over **17.9k browser plays** and **25.6k views,** as well as being played on Twitch by streamers. This is currently a demo, and the team is currently working a version that is more responsive to the player!
 
 ### Contributions
 
