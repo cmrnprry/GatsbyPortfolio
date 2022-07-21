@@ -41,18 +41,20 @@ class About extends React.Component {
             <h1>Hi, I'm Cam!</h1>
             <h2>I'm a <br/>✨Narrative Designer and Writer✨</h2>
             <p style={{fontSize: '22px'}}>
-              I'm currently studying Computer Science and Game Development at Northeastern University, 
-              but will be graduating this April! As much as I love coding, over my four years at Northeastern, 
-              I've realized my true passion lies in writing and design! 
+              I'm currently working as a game designer at Schell Games, as well as working part time on a variety of other projects. I program for the two dating sims <a href="https://validategame.com" target="_blank"
+                rel="nofollow noopener noreferrer"
+                style={{ color: '#2e1114', textDecoration: 'underline' }}> Validate </a> and <a href="https://store.steampowered.com/app/1765760/Pen_Pal_Princess/" target="_blank"
+                rel="nofollow noopener noreferrer"
+                style={{ color: '#2e1114', textDecoration: 'underline' }}> Pen Pal Princess</a>, as well as writing for an unannounced horror game. 
               <br />
               <br />
               I'm most interested in creating games that are either horror, weird or absurd! That's not to say I don't 
               love to create games that have deep, and meaningful narratives as well, those are just my favorite! Some of my 
               favorite games are those that allow the player to interpret the narrative, and stay more open-ended, so those 
-              are the kinds of games I want to create in the future!
+              are the kinds of games I want to create in the future.
               <br />
               <br />
-              Outside of games and game development, I also enjoy reading, acrylic painting, and baking! Any office I work in
+              Outside of games and game development, I also enjoy reading, acrylic painting, and baking. Any office I work in
               will always get fresh baked goods every so often.
             </p>
             <br />
