@@ -43,7 +43,7 @@ class About extends React.Component {
             <p style={{fontSize: '22px'}}>
               I'm currently working as a game designer at Schell Games, as well as working part time on a variety of other projects. I program for the two dating sims <a href="https://validategame.com" target="_blank"
                 rel="nofollow noopener noreferrer"
-                style={{ color: '#2e1114', textDecoration: 'underline' }}> Validate </a> and <a href="https://store.steampowered.com/app/1765760/Pen_Pal_Princess/" target="_blank"
+                style={{ color: '#2e1114', textDecoration: 'underline' }}> Validate</a> and <a href="https://store.steampowered.com/app/1765760/Pen_Pal_Princess/" target="_blank"
                 rel="nofollow noopener noreferrer"
                 style={{ color: '#2e1114', textDecoration: 'underline' }}> Pen Pal Princess</a>, as well as writing for an unannounced horror game. 
               <br />
