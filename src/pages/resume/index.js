@@ -17,6 +17,7 @@ class Resume extends React.Component {
           description="My resume"
           path="resume"
         />
+
         <div className={style.container}>
           <div className={style.content}>
             <h2>
@@ -28,7 +29,7 @@ class Resume extends React.Component {
               <embed src={resume} width="100%" height="1000vh"/>
             </div>
           </div>
-        </div>
+        </div> 
       </Layout>
     )
   }

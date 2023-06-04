@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 import Img from 'gatsby-image'
 import { Link } from 'gatsby'
 /* App imports */
-import TagList from '../../../components/tag-list'
+// import TagList from '../../../components/tag-list'
 import style from './heading.module.less'
 
 const Heading = ({ title, cover, coverTitle, trailer, download, writing, design }) => (
@@ -15,11 +15,11 @@ const Heading = ({ title, cover, coverTitle, trailer, download, writing, design 
       
       <div className={style.links}>
         <Link to={download}>Download Game</Link>
-        {/* {writing != "" &&
+        {/* {writing !== "" &&
         <a href={'./PDFs/' + {writing}}
           target="_blank"
           rel="nofollow noopener noreferrer"> Writing Sample </a>}
-        {design != "" &&
+        {design !== "" &&
         <a href={'./PDFs/' + {design}}
           target="_blank"
           rel="nofollow noopener noreferrer"> Design Sample </a>} */}
@@ -29,10 +29,10 @@ const Heading = ({ title, cover, coverTitle, trailer, download, writing, design 
 
 
     <div className={style.cover}>
-      {trailer == '' &&
+      {trailer === '' &&
         <Img fluid={cover} title={coverTitle} alt={title} />}
-      {trailer != "" &&
-      <iframe width="100%" height="400" src={trailer} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>}
+      {trailer !== "" &&
+      <iframe title={coverTitle} width="100%" height="400" src={trailer} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>}
     </div>
   </div>
 )

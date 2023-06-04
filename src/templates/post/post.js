@@ -43,7 +43,6 @@ const Post = ({ data, pageContext }) => {
         imageUrl={img.src}
         keywords={tags}
         translations={translations}
-        imageUrl={img.src}
         download={download}
         writing={writing}
         design={design}

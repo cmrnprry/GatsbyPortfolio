@@ -25,7 +25,7 @@ class About extends React.Component {
   static propTypes = aboutPropTypes
 
   render() {
-    let { profilePhoto, skillIcons, toolIcons } = this.props.data
+    let { profilePhoto, skillIcons } = this.props.data
     return (
       <Layout>
         <SEO
