@@ -19,18 +19,7 @@ const Post = ({ data, pageContext }) => {
   const { title, tags, cover, trailerURL, download, writing, design, listIndex, isShipped, path, excerpt } = frontmatter
   const translations =
     pageContext.translations.length > 1 ? pageContext.translations : null
-  const img = cover.childImageSharp.fluid
-  // const canonicalUrl = Utils.resolvePageUrl(
-  //   Config.siteUrl,
-  //   Config.pathPrefix,
-  //   path
-  // )
-  // const coverUrl = Utils.resolveUrl(Config.siteUrl, img.src)
-  // const suggestedPosts = Utils.getSuggestedPosts(
-  //   data.markdownRemark,
-  //   data.allMarkdownRemark,
-  //   3
-  // )
+    const img = cover.childImageSharp.fluid
 
   return (
     <Layout>
