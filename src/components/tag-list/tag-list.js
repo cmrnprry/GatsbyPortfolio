@@ -11,7 +11,6 @@ const TagList = ({ tags }) => (
   <div className={style.tags}>
     {tags
       .filter((tag, index) => index === tags.indexOf(tag)) // Remove duplicate values
-      .sort()
       .map(tag => (
         <Link key={tag} style={{cursor: "default"}}>
             {Config.tags[tag].name || Utils.capitalize(tag)}

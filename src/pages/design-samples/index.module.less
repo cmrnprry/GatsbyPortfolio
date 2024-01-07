@@ -1,8 +1,9 @@
 @import (reference) '../../style/index.less';
 
 .container {
+    justify-content: space-evenly;
     .flex-center();
-    .frame-medium();
+    .frame-small();
     @media @mobile {
         flex-direction: column;
         padding: @padding-small @padding-zero;
@@ -33,6 +34,7 @@
     }
     h2 {
         font-family: "CustomBoldFont", sans-serif;
+        text-shadow: @text-shadow-title;
     }
     h2, p {
         padding-left: @padding-medium;
@@ -47,7 +49,19 @@
 }
 
 .iconsContainer {
-    .flex-center();
+    .flex-down();
+    .frame-small();
+    @media @mobile {
+        flex-direction: column;
+        padding: @padding-small @padding-zero;
+    }
+    h2 {
+        margin: @margin-small
+    }
+    p {
+      margin:@margin-small 150px @margin-small 150px ;
+      text-align: center;
+    }
 }
 
 .iconWrapper {
@@ -62,4 +76,61 @@
     @media @mobile {
         flex-basis: 30%;
     }
+}
+
+//DROPDOWN
+
+.dropbtn {
+    background: @header-theme;
+    border: none;
+    padding: 17px;
+    
+    h2 {
+        margin: @margin-small
+    }
+    p {
+      margin: @margin-large @margin-zero @margin-zero @margin-zero;
+    }
+    h2 {
+      color: @header-text;
+      text-shadow: @text-shadow-title;    
+      transition: @transition-time color; 
+    }
+    &:hover {
+        h2 {
+            color: #9a719d;
+        }
+    }
+}
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin: @margin-small;
+    padding: @padding-small;
+}
+  
+.dropdownContent {
+    display: none;
+    background: #f1f1f1;
+    min-width: 160px;
+    position: absolute;
+    z-index: 1;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+  
+.dropdownContent a {
+    display: block;
+    color: #000;
+    text-decoration: none;
+    padding: 17px;
+    font-size: 18px;
+}
+  
+.dropdownContent a:hover {
+    background: #ddd;
+}
+  
+.dropdown:hover .dropdownContent {
+    display: block;
 }

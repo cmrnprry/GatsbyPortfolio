@@ -7,8 +7,10 @@ trailerURL: https://www.youtube.com/embed/IPUPAme0h3o
 download: https://jelindo.itch.io/weird-mall
 writing: ""
 design: THEMALL Designs.pdf
-cover: ./sass-image.png
+cover: "./f.png"
 excerpt: A weird game about being lost in a liminal mall
+listIndex: 4
+isShipped: false
 ---
 ### About the Game
 

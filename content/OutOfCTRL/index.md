@@ -7,8 +7,10 @@ trailerURL: https://www.youtube.com/embed/RDJEwZe17V0
 download: https://ezra-szanton.itch.io/out-of-ctrl
 writing: OFC Narrative Spreadsheet.pdf
 design: OFC Narrative outline.pdf
-cover: ./outofCTRL.PNG
+cover: "./e.PNG"
 excerpt: A short interactive narrative about a conversation with old computer
+listIndex: 2
+isShipped: false
 ---
 
 ### About the Game

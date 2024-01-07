@@ -39,6 +39,7 @@ export const query = graphql`
             download
             writing
             design
+            listIndex
             title
             tags
             excerpt

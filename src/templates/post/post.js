@@ -16,7 +16,7 @@ import style from './post.module.less'
 
 const Post = ({ data, pageContext }) => {
   const { html, frontmatter } = data.markdownRemark
-  const { title, tags, cover, trailerURL, download, writing, design, path, excerpt } = frontmatter
+  const { title, tags, cover, trailerURL, download, writing, design, listIndex, isShipped, path, excerpt } = frontmatter
   const translations =
     pageContext.translations.length > 1 ? pageContext.translations : null
   const img = cover.childImageSharp.fluid
@@ -46,6 +46,8 @@ const Post = ({ data, pageContext }) => {
         download={download}
         writing={writing}
         design={design}
+        listIndex={listIndex}
+        isShipped={isShipped}
       />
       <div className={style.container}>
         <Heading title={title} cover={img} coverTitle={excerpt} trailer={trailerURL} download={download} writing={writing} design={design}/>
@@ -77,6 +79,8 @@ export const pageQuery = graphql`
         download
         writing
         design
+        listIndex
+        isShipped
         excerpt
         cover {
           childImageSharp {

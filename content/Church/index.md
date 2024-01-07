@@ -7,9 +7,10 @@ trailerURL: ""
 download: https://cmrnprry.itch.io/the-church-at-the-end-of-the-street
 writing: 
 design: 
-cover: "a.jpg"
+cover: "ChurchOutsideView.png"
 excerpt: A Twine game about a strange church that appears at the of your street
-index: 1
+listIndex: 1
+isShipped: false
 ---
 
 ### About the Game

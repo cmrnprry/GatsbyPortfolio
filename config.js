@@ -41,6 +41,13 @@ module.exports = {
     narrative_design: {
       name: 'Narrative Design',
       description: 'Node.js is a tool for executing JavaScript in a variety of environments.'
+    },
+    solo: {
+      name: 'Solo Development',
+      description: 'Node.js is a tool for executing JavaScript in a variety of environments.'
+    },
+    production: {
+      description: 'Node.js is a tool for executing JavaScript in a variety of environments.'
     }
   }
 }

@@ -6,6 +6,13 @@
     flex-wrap: wrap;
 }
 
+.flex-down () {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
 .frame-small () {
     padding: @padding-small;
     margin: @margin-small;
@@ -15,6 +22,12 @@
     padding: @padding-medium;
     margin: @margin-medium;
 }
+
+.frame-small () {
+    padding: @padding-small;
+    margin: @margin-small;
+}
+
 
 .heading (@selector, @size, @color: @theme-title) {
     @{selector} {

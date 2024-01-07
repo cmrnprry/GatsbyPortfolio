@@ -7,8 +7,10 @@ trailerURL: https://www.youtube.com/embed/e8FI4RX8EYs
 download: https://cmrnprry.itch.io/absolute-unit
 writing: ""
 design: ""
-cover: ./title_card.png
+cover: "./g.png"
 excerpt: A game about a small dog, and his quest to get all the treats
+listIndex: 3
+isShipped: false
 ---
 
 ### About the Game

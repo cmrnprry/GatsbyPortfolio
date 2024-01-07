@@ -65,10 +65,10 @@ const Header = () => {
             <Link to={Config.pages.resume}>Resume</Link>
           </li>
           <li>
-            <Link to={Config.pages.design}>Design</Link>
+            <Link to={Config.pages.design}>Samples</Link>
           </li>
           <li>
-            <Link to={Config.pages.writing}>Writing</Link>
+            <Link to={Config.pages.writing}>Games</Link>
           </li>
           <li>
             <Link to={Config.pages.about}>About</Link>

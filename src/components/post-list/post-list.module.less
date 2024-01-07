@@ -20,6 +20,10 @@
     > div:first-child > a > div {
       transform: scale(1.1) !important;
     }
+    h2 {
+      color: #2E1114;
+      text-shadow: 5px 5px rgba(255, 255, 255, 0.2);
+  }
   }
   @media @mobile {
     width: 100%;
@@ -44,17 +48,31 @@
 
 .content {
   .frame-small();
-  width: 60%;
+  width: 100%;
   text-align: center;
   h2,
   p {
-    margin: @margin-small @margin-zero @margin-zero @margin-zero;
+    margin: @margin-large @margin-zero @margin-zero @margin-zero;
   }
   h2 {
     text-shadow: @text-shadow-title;
+    transition: @transition-time color;
   }
   p {
     .frame-small();
     font-size: 22px;
   }
+}
+
+.SeeMore {
+  font-size: 3.3em;
+  font-family: 'CustomFont', sans-serif;
+  color: #dddddb;
+  text-shadow: @text-shadow-title;
+  transition: @transition-time color;
+}
+
+.SeeMore:hover {
+  color: #2E1114;
+  text-shadow: 5px 5px rgba(255, 255, 255, 0.2);
 }

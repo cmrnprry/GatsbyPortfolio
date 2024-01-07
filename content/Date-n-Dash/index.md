@@ -7,8 +7,10 @@ trailerURL: ""
 download: https://cmrnprry.itch.io/date-n-dash
 writing: "Date N' Dash Sample.pdf"
 design: ""
-cover: ./title.png
+cover: "./h.png"
 excerpt: A dating sim, but every time you die it gets faster
+listIndex: -1
+isShipped: false
 ---
 
 ### About the Game
